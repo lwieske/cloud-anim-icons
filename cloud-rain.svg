@@ -1,0 +1,200 @@
+<svg version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 64 64">
+
+  <style type="text/css"><![CDATA[
+
+      svg{
+          shape-rendering: geometricPrecision
+      }
+
+      .rain {
+        fill-opacity: 0;
+
+        -webkit-animation-name: rainFall, fillOffOnOff;
+        -moz-animation-name: rainFall, fillOffOnOff;
+        -o-animation-name: rainFall, fillOffOnOff;
+        animation-name: rainFall, fillOffOnOff;
+
+        -webkit-animation-timing-function: ease-in;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+
+      .rain:nth-child(1) {
+        -webkit-animation-delay: 0s;
+        -moz-animation-delay: 0s;
+        -o-animation-delay: 0s;
+        animation-delay: 0s;
+      }
+
+      .rain:nth-child(2) {
+        -webkit-animation-delay: 0.66s;
+        -moz-animation-delay: 0.66s;
+        -o-animation-delay: 0.66s;
+        animation-delay: 0.66s;
+      }
+
+      .rain:nth-child(3) {
+        -webkit-animation-delay: 0.33s;
+        -moz-animation-delay: 0.33s;
+        -o-animation-delay: 0.33s;
+        animation-delay: 0.33s;
+      }
+
+      .rain:nth-child(4) {
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+
+      .rain:nth-child(5) {
+        -webkit-animation-delay: 1.66s;
+        -moz-animation-delay: 1.66s;
+        -o-animation-delay: 1.66s;
+        animation-delay: 1.66s;
+      }
+
+      .rain:nth-child(6) {
+        -webkit-animation-delay: 1.33s;
+        -moz-animation-delay: 1.33s;
+        -o-animation-delay: 1.33s;
+        animation-delay: 1.33s;
+      }
+
+      @-webkit-keyframes rainFall {
+        0% {
+          -webkit-transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(20px);
+        }
+      }
+
+      @-moz-keyframes rainFall {
+        0% {
+          -moz-transform: translateY(0);
+        }
+        100% {
+          -moz-transform: translateY(20px);
+        }
+      }
+
+      @-o-keyframes rainFall {
+        0% {
+          -o-transform: translateY(0);
+        }
+        100% {
+          -o-transform: translateY(20px);
+        }
+      }
+
+      @keyframes rainFall {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(20px);
+        }
+      }
+
+      @-webkit-keyframes fillOffOnOff {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+      @-moz-keyframes fillOffOnOff {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+      @keyframes fillOffOnOff {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+      @keyframes fillOffOnOff {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+  ]]></style>
+
+  <defs>
+    <symbol id="cloud" viewBox="0 0 64 64">
+      <circle cx="25" cy="32" r="15"                 style="stroke:none;fill:deepskyblue"/>
+      <circle cx="42" cy="35" r="12"                 style="stroke:none;fill:deepskyblue"/>
+      <rect    x="25"  y="35" width="17" height="12" style="stroke:none;fill:deepskyblue"/>
+    </symbol>
+    <g id="rain">
+      <line x1="0" y1="0" x2="0" y2="12"
+        stroke="deepskyblue"
+        stroke-linecap="round"
+        stroke-width="3"/>
+    </g>
+  </defs>
+
+  <g>
+    <use x="27"   y="32" class="rain" xlink:href="#rain"/>
+    <use x="33.5" y="32" class="rain" xlink:href="#rain"/>
+    <use x="40"   y="32" class="rain" xlink:href="#rain"/>
+    <use x="27"   y="32" class="rain" xlink:href="#rain"/>
+    <use x="33.5" y="32" class="rain" xlink:href="#rain"/>
+    <use x="40"   y="32" class="rain" xlink:href="#rain"/>
+  </g>
+
+  <use x="0" y="0" xlink:href="#cloud"/>
+
+</svg><!-- cloud-rain -->

@@ -1,0 +1,14 @@
+<svg version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 64 64">
+
+  <defs>
+    <symbol id="sun" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="16" style="fill:gold"/>
+    </symbol>
+  </defs>
+
+  <use x="0" y="0" xlink:href="#sun"/>
+
+</svg><!-- sun -->

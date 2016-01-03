@@ -1,0 +1,266 @@
+<svg version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 64 64">
+
+  <style type="text/css"><![CDATA[
+
+      svg{
+          shape-rendering: geometricPrecision
+      }
+
+      .bolt {
+          fill-opacity: 0;
+
+          -webkit-animation-name: fillOpacityLightning;
+          -moz-animation-name: fillOpacityLightning;
+          -o-animation-name: fillOpacityLightning;
+          animation-name: fillOpacityLightning;
+
+          -webkit-animation-iteration-count: infinite;
+          -moz-animation-iteration-count: infinite;
+          -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+
+          -webkit-animation-direction: normal;
+          -moz-animation-direction: normal;
+          -o-animation-direction: normal;
+          animation-direction: normal;
+
+          -webkit-animation-timing-function: ease-out;
+          -moz-animation-timing-function: ease-out;
+          -o-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+
+          -webkit-animation-duration: 6s;
+          -moz-animation-duration: 6s;
+          -o-animation-duration: 6s;
+          animation-duration: 6s;
+      }
+
+      .bolt:nth-child(1) {
+          -webkit-animation-delay: 0s;
+          -moz-animation-delay: 0s;
+          -o-animation-delay: 0s;
+          animation-delay: 0s;
+      }
+
+      .bolt:nth-child(2) {
+          -webkit-animation-delay: 4s;
+          -moz-animation-delay: 4s;
+          -o-animation-delay: 4s;
+          animation-delay: 4s;
+      }
+
+      .bolt:nth-child(3) {
+          -webkit-animation-delay: 3s;
+          -moz-animation-delay: 3s;
+          -o-animation-delay: 3s;
+          animation-delay: 3s;
+      }
+
+      .bolt:nth-child(4) {
+          -webkit-animation-delay: 5s;
+          -moz-animation-delay: 5s;
+          -o-animation-delay: 5s;
+          animation-delay: 5s;
+      }
+
+      .bolt:nth-child(5) {
+          -webkit-animation-delay: 5s;
+          -moz-animation-delay: 5s;
+          -o-animation-delay: 5s;
+          animation-delay: 5s;
+      }
+
+      .bolt:nth-child(6) {
+          -webkit-animation-delay: 5s;
+          -moz-animation-delay: 5s;
+          -o-animation-delay: 5s;
+          animation-delay: 5s;
+      }
+
+      @-webkit-keyframes fillOpacityLightning {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        1% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        7% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        51% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        53% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        54% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        60% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+      @-moz-keyframes fillOpacityLightning {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        1% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        7% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        51% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        53% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        54% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        60% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+      @-o-keyframes fillOpacityLightning {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        1% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        7% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        51% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        53% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        54% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        60% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+      @keyframes fillOpacityLightning {
+        0% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        1% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        7% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        50% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        51% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        53% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        54% {
+          fill-opacity: 1;
+          stroke-opacity: 1;
+        }
+        60% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+        100% {
+          fill-opacity: 0;
+          stroke-opacity: 0;
+        }
+      }
+
+  ]]></style>
+
+  <defs>
+    <symbol id="cloud" viewBox="0 0 64 64">
+      <circle cx="25" cy="32" r="15"                 style="stroke:none;fill:gray"/>
+      <circle cx="42" cy="35" r="12"                 style="stroke:none;fill:gray"/>
+      <rect    x="25"  y="35" width="17" height="12" style="stroke:none;fill:gray"/>
+    </symbol>
+    <g id="bolt">
+      <polyline points="37,40 27,60"
+        stroke="gold"
+        stroke-width="3"
+        stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <use x="0" y="0" xlink:href="#cloud"/>
+
+  <g>
+    <use x="-7" y="0" class="bolt" xlink:href="#bolt"/>
+    <use x="0" y="0" class="bolt" xlink:href="#bolt"/>
+    <use x="+7" y="0" class="bolt" xlink:href="#bolt"/>
+    <use x="-7" y="0" class="bolt" xlink:href="#bolt"/>
+    <use x="0" y="0" class="bolt" xlink:href="#bolt"/>
+    <use x="+7" y="0" class="bolt" xlink:href="#bolt"/>
+  </g>
+
+</svg><!-- thunderstorm -->
